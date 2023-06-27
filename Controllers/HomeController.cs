@@ -23,7 +23,12 @@ public class HomeController : Controller
     public IActionResult Elecciones(){
         return View();
     }
-
+    public IActionResult AgregarCandidato(){
+        return View();
+    }
+    public IActionResult VerDetallePartido(){
+        return View();
+    }
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
