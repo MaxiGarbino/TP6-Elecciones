@@ -20,3 +20,15 @@ html {
 body {
   margin-bottom: 60px;
 }
+.creditos{
+  float: left;
+  width: 28%;
+  margin: 1%;
+}
+.creditos img {
+  width: 100%;
+}
+.imgLayout{
+  height: auto;
+  width: 40%;
+}

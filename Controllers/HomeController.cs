@@ -17,9 +17,10 @@ public class HomeController : Controller
     {
         return View();
     }
-
-    public IActionResult Privacy()
-    {
+    public IActionResult Creditos(){
+        return View();
+    }
+    public IActionResult Elecciones(){
         return View();
     }
 

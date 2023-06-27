@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\TP6-Elecciones.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\47433817\\TP6-Elecciones\\wwwroot\\Fotos\\Bandera.png",
+      "PackagePath": "staticwebassets\\Fotos\\Bandera.png"
+    },
+    {
+      "Id": "C:\\Users\\47433817\\TP6-Elecciones\\wwwroot\\Fotos\\Foto Maxi.jpg",
+      "PackagePath": "staticwebassets\\Fotos\\Foto Maxi.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47433817\\TP6-Elecciones\\wwwroot\\Fotos\\Foto_Abou.jpg",
+      "PackagePath": "staticwebassets\\Fotos\\Foto_Abou.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47433817\\TP6-Elecciones\\wwwroot\\Fotos\\foto_huevo.jpeg",
+      "PackagePath": "staticwebassets\\Fotos\\foto_huevo.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\47433817\\TP6-Elecciones\\wwwroot\\TP6 programacion.sql",
+      "PackagePath": "staticwebassets\\TP6 programacion.sql"
+    },
+    {
       "Id": "C:\\Users\\47433817\\TP6-Elecciones\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
