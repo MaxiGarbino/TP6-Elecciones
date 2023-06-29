@@ -9,112 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP6_Elecciones
 build_property.RootNamespace = TP6_Elecciones
-<<<<<<< HEAD
-build_property.ProjectDir = z:\prog_2023\TP6\TP6-Elecciones\
+build_property.ProjectDir = Z:\Programacion\TP6-Elecciones\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\prog_2023\TP6\TP6-Elecciones
+build_property.MSBuildProjectDirectory = Z:\Programacion\TP6-Elecciones
 build_property._RazorSourceGeneratorDebug = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/AgregarCandidato.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/AgregarCandidato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyQ2FuZGlkYXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/Creditos.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/Creditos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/Elecciones.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/Elecciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbGVjY2lvbmVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/Index.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/Privacy.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/VerDetalleCandidato.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/VerDetalleCandidato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlQ2FuZGlkYXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Home/VerDetallePartido.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Home/VerDetallePartido.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlUGFydGlkby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Shared/Error.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Shared/_ValidationScriptsPartial.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/_ViewImports.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/_ViewStart.cshtml]
+[Z:/Programacion/TP6-Elecciones/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[z:/prog_2023/TP6/TP6-Elecciones/Views/Shared/_Layout.cshtml]
-=======
-build_property.ProjectDir = z:\Programacion\TP6-Elecciones\
-build_property.RazorLangVersion = 7.0
-build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = z:\Programacion\TP6-Elecciones
-build_property._RazorSourceGeneratorDebug = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/AgregarCandidato.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZ3JlZ2FyQ2FuZGlkYXRvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/Creditos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVkaXRvcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/Elecciones.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbGVjY2lvbmVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/VerDetalleCandidato.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlQ2FuZGlkYXRvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Home/VerDetallePartido.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZXJEZXRhbGxlUGFydGlkby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[z:/Programacion/TP6-Elecciones/Views/Shared/_Layout.cshtml]
->>>>>>> 32ad8abbd0b1015a5507ffc50975e717d4f81bcf
+[Z:/Programacion/TP6-Elecciones/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tnroxgv5wf

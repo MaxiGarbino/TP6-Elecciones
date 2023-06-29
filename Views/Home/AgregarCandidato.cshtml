@@ -8,6 +8,13 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action='@Url.Action("GuardarCandidato")' method="post">
+        <input type="hidden" name="IDPartido" value="ViewBag.IDPartido">
+        <input type="text" name="Apellido" placeholder="Apellido">
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <input type="date" name="FechaNacimiento">
+        <input type="text" name="Foto" placeholder="Link a la foto">
+        <input type="text" name="Postulacion" placeholder="Postulacion">
+    </form>
 </body>
 </html>

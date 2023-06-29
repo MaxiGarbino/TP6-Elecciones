@@ -6,7 +6,6 @@ public class Partido{
     public DateTime FechaFundacion;
     public int CantidadDiputados;
     public int CantidadSenadores;
-
     public Partido(){
 
     }
