@@ -18655,6 +18655,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\47433817\\TP6-Elecciones\\Views\\Home\\VerDetalleCandidato.cshtml",
+      "TargetPath": "Views\\Home\\VerDetalleCandidato.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\47433817\\TP6-Elecciones\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
