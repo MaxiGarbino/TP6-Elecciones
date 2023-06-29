@@ -1,13 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+@{
+    ViewData["Title"] = "VerDetallePartido";
+}
+
+<h1>Información sobre el partido @ViewBag.InfoPartido.Nombre</h1>
+<img src="@ViewBag.VerInfoCandidato.Logo">
+
+<p>Fecha de fundacion: @ViewBag.InfoPartido.FechaFundacion.ToShortDateString()</p>
+<p>ID: @ViewBag.InfoPartido.IDPartido</p>
+<p>Sitio Web: @ViewBag.InfoPartido.SitioWeb</p>
+<p>Cantidad de diputados: @ViewBag.InfoPartido.CantidadDiputados</p>
+<p>Cantidad de senadores: @ViewBag.InfoPartido.CantidadSenadores</p>
+
+<h2>Candidatos</h2>
+@foreach (Candidato item in ViewBag.ListaCandidatos)
+{
+    <h3>
+        @item.Nombre  @item.Apellido
+    </h3>
+    <img src="@item.Foto">
+    <p>ID: @item.IDCandidato</p>
+    <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@ViewBag.InfoPartido.IDCandidato})'></a>
+}
+
+
+<!--
+    public int IDPartido;
+    public string Nombre;
+    public string Logo;
+    public string SitioWeb;
+    public DateTime FechaFundacion;
+    public int CantidadDiputados;
+    public int CantidadSenadores;
+-->
+
+<a href='@Url.Action("AgregarCandidato"),@ViewBag.VerInfoPartido.IDPartido'><button>Agregar un candidato</button></a>
