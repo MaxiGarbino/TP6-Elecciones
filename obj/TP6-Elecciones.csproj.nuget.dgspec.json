@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "Z:\\prog_2023\\TP6\\TP6-Elecciones\\TP6-Elecciones.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "Z:\\prog_2023\\TP6\\TP6-Elecciones\\TP6-Elecciones.csproj",
         "packagesPath": "C:\\Users\\47494132\\.nuget\\packages\\",
         "outputPath": "Z:\\prog_2023\\TP6\\TP6-Elecciones\\obj\\",
-=======
-    "Z:\\Programacion\\TP6-Elecciones\\TP6-Elecciones.csproj": {}
-  },
-  "projects": {
-    "Z:\\Programacion\\TP6-Elecciones\\TP6-Elecciones.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "Z:\\Programacion\\TP6-Elecciones\\TP6-Elecciones.csproj",
-        "projectName": "TP6-Elecciones",
-        "projectPath": "Z:\\Programacion\\TP6-Elecciones\\TP6-Elecciones.csproj",
-        "packagesPath": "C:\\Users\\47701750\\.nuget\\packages\\",
-        "outputPath": "Z:\\Programacion\\TP6-Elecciones\\obj\\",
->>>>>>> 32ad8abbd0b1015a5507ffc50975e717d4f81bcf
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\47494132\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\47701750\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 32ad8abbd0b1015a5507ffc50975e717d4f81bcf
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

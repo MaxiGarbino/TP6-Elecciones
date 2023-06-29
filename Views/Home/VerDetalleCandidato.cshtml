@@ -2,15 +2,15 @@
     ViewData["Title"] = "VerDetalleCandidato";
 }
 
-<h1>Información sobre @ViewBag.VerInfoCandidato.Nombre  @ViewBag.VerInfoCandidato.Apellido</h1>
-<img src="@ViewBag.VerInfoCandidato.Foto">
+<h1>Información sobre @ViewBag.InfoCandidato.Nombre  @ViewBag.InfoCandidato.Apellido</h1>
+<img src="@ViewBag.InfoCandidato.Foto">
 
-<p>Fecha de nacimiento: @ViewBag.VerInfoCandidato.FechaNacimiento.ToShortDateString()</p>
-<p>ID: @ViewBag.VerInfoCandidato.IDCandidato</p>
-<p>ID del partido: @ViewBag.VerInfoCandidato.IDPartido</p>
-<p>Postulacion: @ViewBag.VerInfoCandidato.Postulacion</p>
+<p>Fecha de nacimiento: @ViewBag.InfoCandidato.FechaNacimiento.ToShortDateString()</p>
+<p>ID: @ViewBag.InfoCandidato.IDCandidato</p>
+<p>ID del partido: @ViewBag.InfoCandidato.IDPartido</p>
+<p>Postulacion: @ViewBag.InfoCandidato.Postulacion</p>
 
- <a href='@Url.Action("VerDetallePartido")'<button>Volver al partido</button></a>
+<a href='@Url.Action("VerDetallePartido",new {IDPartido=@ViewBag.InfoCandidato.IDPartido}),@ViewBag.InfoCandidato.IDPartido'><button>Volver al partido</button></a>
 
 <!--
     public int IDCandidato;
