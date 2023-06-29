@@ -21,26 +21,26 @@ public class HomeController : Controller
 
 public IActionResult VerDetallePartido(int IDPartido) {
     ViewBag.InfoPartido = BD.VerInfoPartido(IDPartido);
-    ViewBag.ListaCandidatos= BD.ListarCandidatos();
-    return view();
+    ViewBag.ListaCandidatos= BD.ListarCandidatos(IDPartido);
+    return View();
 }
 public IActionResult VerDetalleCandidato(int IDCandidato) {
     ViewBag.InfoCandidato = BD.VerInfoCandidato(IDCandidato);
-    return view();
+    return View();
 }
 /*
 IActionResult AgregarCandidato(int idPartido): Debe devolver una View con el formulario de Candidatos para cargar. Cargar en un ViewBag el IdPartido.
 */
 public IActionResult AgregarCandidato(int IDPartido) {
-    return view();
+    return View();
 }
 [HttpPost] public IActionResult GuardarCandidato(Candidato can) {
     BD.AgregarCandidato(can);
-    return redirectToAction("VerDetallePartido", new {IDPartido = can.IDPartido});
+    return RedirectToAction("VerDetallePartido", new {IDPartido = can.IDPartido});
 }
 public IActionResult EliminarCandidato(int IDCandidato, int IDPartido) {
-    BD.EliminarCandidato(idCandidato); 
-    return redirectToAction("VerDetallePartido", IDPartido);
+    BD.EliminarCandidato(IDCandidato); 
+    return RedirectToAction("VerDetallePartido", IDPartido);
 }
 /*
 IActionResult Elecciones(): Debe ir a una view en la que se cuente que es lo que se vota este año.
@@ -51,7 +51,9 @@ public IActionResult Elecciones() {
 /*
 IActionResult Creditos(): Debe ir a una view que muestra a los integrantes del trabajo práctico.
     */
-
+public IActionResult Creditos() {
+    return View();
+}
     public IActionResult Privacy()
     {
         return View();

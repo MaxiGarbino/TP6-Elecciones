@@ -1,12 +1,12 @@
 using System.Data.SqlClient;
 using Dapper;
 
-namespace TP06.Models;
+namespace TP6_Elecciones.Models;
 
 public static class BD
 {
     private static string _connectionString = @"Server=localhost; DataBase=TP6_Elecciones;Trusted_Connection=True;";
-    static int AgregarCandidato(Candidato can){
+    public static int AgregarCandidato(Candidato can){
         int r;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "INSERT INTO Candidato(IDPartido, Apellido, Nombre, FechaNacimiento, Foto, Postulacion) VALUES (@IDPartido, @Apellido, @Nombre, @FechaNacimiento, @Foto, @Postulacion);";
@@ -14,7 +14,7 @@ public static class BD
         }
         return r;
     }
-    static int EliminarCandidato(int IDCandidato){
+    public static int EliminarCandidato(int IDCandidato){
         int r;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "DELETE FROM Candidato WHERE IDCandidato = @pIDCandidato";
@@ -22,7 +22,7 @@ public static class BD
         }
         return r;
     }
-    static Partido VerInfoPartido(int IDPartido){
+    public static Partido VerInfoPartido(int IDPartido){
         Partido part;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Partido WHERE IDPartido = @pIDPartido";
@@ -30,7 +30,7 @@ public static class BD
         }
         return part;
     }
-    static Candidato VerInfoCandidato(int IDCandidato){
+    public static Candidato VerInfoCandidato(int IDCandidato){
         Candidato part;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Candidato WHERE IDCandidato = @pIDCandidato";
@@ -38,7 +38,7 @@ public static class BD
         }
         return part;
     }
-    static List<Partido> ListarPartidos(){
+    public static List<Partido> ListarPartidos(){
         List<Partido> part;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Partido";
@@ -46,7 +46,7 @@ public static class BD
         }
         return part;
     }
-    static List<Candidato> ListarCandidatos(int IDPartido){
+    public static List<Candidato> ListarCandidatos(int IDPartido){
         List<Candidato> part;
         using(SqlConnection db = new SqlConnection(_connectionString)){
             string sql = "SELECT * FROM Candidato WHERE IDPartido = @pIDPartido";
