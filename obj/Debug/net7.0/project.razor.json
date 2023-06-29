@@ -18690,6 +18690,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\47433817\\TP6-Elecciones\\Views\\Home\\Elecciones.cshtml",
+      "TargetPath": "Views\\Home\\Elecciones.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\47433817\\TP6-Elecciones\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
