@@ -6,7 +6,7 @@ class Candidato{
     public DateTime FechaNacimiento;
     public string Foto;
     public string Postulacion;
-    public Candidato(int IDCandidato = 0, int IDPartido = 0, string Apellido = "...", string Nombre = "...", DateTime FechaNacimiento=new DateTime(), string Foto = "...", string Postulacion = "..."){
+    public Candidato(int IDCandidato = 0, int IDPartido = 0, string Apellido = "...", string Nombre = "...", DateTime FechaNacimiento = new DateTime(), string Foto = "...", string Postulacion = "..."){
         this.IDCandidato = IDCandidato;
         this.IDPartido = IDPartido;
         this.Apellido = Apellido;
