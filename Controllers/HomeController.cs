@@ -46,7 +46,7 @@ public IActionResult EliminarCandidato(int IDCandidato, int IDPartido) {
 IActionResult Elecciones(): Debe ir a una view en la que se cuente que es lo que se vota este año.
 */
 public IActionResult Elecciones() {
-    return view();
+    return View();
 }
 /*
 IActionResult Creditos(): Debe ir a una view que muestra a los integrantes del trabajo práctico.
