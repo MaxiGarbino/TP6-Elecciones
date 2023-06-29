@@ -32,6 +32,7 @@ public IActionResult VerDetalleCandidato(int IDCandidato) {
 IActionResult AgregarCandidato(int idPartido): Debe devolver una View con el formulario de Candidatos para cargar. Cargar en un ViewBag el IdPartido.
 */
 public IActionResult AgregarCandidato(int IDPartido) {
+    ViewBag.IDPartido = IDPartido;
     return View();
 }
 [HttpPost] public IActionResult GuardarCandidato(Candidato can) {
