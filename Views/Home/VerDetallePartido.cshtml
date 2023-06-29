@@ -21,16 +21,4 @@
     <p>ID: @item.IDCandidato</p>
     <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@ViewBag.InfoPartido.IDCandidato})'></a>
 }
-
-
-<!--
-    public int IDPartido;
-    public string Nombre;
-    public string Logo;
-    public string SitioWeb;
-    public DateTime FechaFundacion;
-    public int CantidadDiputados;
-    public int CantidadSenadores;
--->
-
 <a href='@Url.Action("AgregarCandidato"),@ViewBag.VerInfoPartido.IDPartido'><button>Agregar un candidato</button></a>

@@ -1,4 +1,4 @@
-class Candidato{
+public class Candidato{
     public int IDCandidato;
     public int IDPartido;
     public string Apellido;
