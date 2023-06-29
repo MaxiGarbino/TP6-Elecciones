@@ -6,6 +6,10 @@ public class Partido{
     public DateTime FechaFundacion;
     public int CantidadDiputados;
     public int CantidadSenadores;
+
+    public Partido(){
+
+    }
     public Partido(int IDPartido = 0, string Nombre = "...", string Logo = "...", string SitioWeb = "...", DateTime FechaFundacion = new DateTime(), int CantidadDiputados = 0, int CantidadSenadores = 0){
         this.IDPartido = IDPartido;
         this.Nombre = Nombre;
@@ -14,5 +18,6 @@ public class Partido{
         this.FechaFundacion = FechaFundacion;
         this.CantidadDiputados = CantidadDiputados;
         this.CantidadSenadores = CantidadSenadores;
+        
     }
 }
