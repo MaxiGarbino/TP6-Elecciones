@@ -1,6 +1,7 @@
 @{
     ViewData["Title"] = "VerDetalleCandidato";
 }
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,6 +14,11 @@
 <body>
     <h1>Información sobre @ViewBag.InfoCandidato.Nombre  @ViewBag.InfoCandidato.Apellido</h1>
 <img src="/Fotos/@ViewBag.InfoCandidato.Foto">
+=======
+
+    <h1>Información sobre @ViewBag.VerInfoCandidato.Nombre  @ViewBag.VerInfoCandidato.Apellido</h1>
+<img src="/Fotos/@ViewBag.VerInfoCandidato.Foto">
+>>>>>>> 0339559d4face2bb033116eae881dacc09247e61
 <p>Fecha de nacimiento: @ViewBag.InfoCandidato.FechaNacimiento.ToShortDateString()</p>
 <p>ID: @ViewBag.InfoCandidato.IDCandidato</p>
 <p>ID del partido: @ViewBag.InfoCandidato.IDPartido</p>
@@ -29,7 +35,5 @@
     public string Foto;
     public string Postulacion;
 -->
-</body>
-</html>
 
     
