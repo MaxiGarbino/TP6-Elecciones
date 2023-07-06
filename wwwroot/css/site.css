@@ -11,37 +11,61 @@ html {
     font-size: 16px;
   }
 }
+body{
+  background-color: rgb(32, 100, 165);
+}
 .form-AgregarCandidato{
   width: 100%;
   height: -50%;
 }
-.title{
-  font-family: 6'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
+a:link, a:visited, a:active {
+  text-decoration:none;
 }
-body{
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/009/852/474/original/argentina-waving-flag-seamless-loop-animation-4k-resolution-free-video.jpg");
+h1 {
+  text-align: center;
+  font-family: 6'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+}
+.imagen {
+  background-image: url("FondoIndex.png");
+  width: 100%;
+  height: 500px;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
+  padding: 0.1px;
   position: sticky;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .partidos{
-  float: right;
+  border: 2px solid black;
+  border-radius: 100px;
+  padding: 1%;
+  margin: 1%;
   width: 30%;
   height: 30%;
-  background-color: rgba(13, 89, 202, 0.699);
-  margin: 1%;
-  border: 1px solid black;
+  float: left;
+  text-align: center;
+  background-color: white;
 }
+.title{
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.699);
+  font-style: none;
+}
+.partidos div {
+  text-align: center;
+}
+
 .partidos h3{
   text-align: center;
 }
 .partidos img{
-  width: 100%;
+  width: 70%;
+  float:center;
 }
 .creditos{
   float: left;
@@ -52,8 +76,8 @@ body{
   width: 100%;
 }
 .imgLayout{
-  height: 100%;
-  width:100%;
+  height: 50%;
+  width:50%;
 }
 
 .body-layout {
