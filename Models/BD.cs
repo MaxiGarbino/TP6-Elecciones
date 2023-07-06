@@ -9,8 +9,8 @@ public static class BD
     public static int AgregarCandidato(Candidato can){
         int r;
         using(SqlConnection db = new SqlConnection(_connectionString)){
-            string sql = "INSERT INTO Candidato(IDPartido, Apellido, Nombre, FechaNacimiento, Foto, Postulacion) VALUES (@IDPartido, @Apellido, @Nombre, @FechaNacimiento, @Foto, @Postulacion);";
-            r = db.Execute(sql, new {can});
+            string sql = "INSERT INTO Candidato(IDPartido, Apellido, Nombre, FechaNacimiento, Foto, Postulacion) VALUES (@pIDPartido, @pApellido, @pNombre, @pFechaNacimiento, @pFoto, @pPostulacion);";
+            r = db.Execute(sql, new {pIDPartido = can.IDPartido, pApellido = can.Apellido, pNombre = can.Nombre, pFechaNacimiento = can.FechaNacimiento, pFoto = can.Foto, pPostulacion = can.Postulacion});
         }
         return r;
     }

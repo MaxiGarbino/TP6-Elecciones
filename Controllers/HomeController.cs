@@ -33,7 +33,8 @@ public IActionResult AgregarCandidato(int IDPartido) {
     ViewBag.IDPartido = IDPartido;
     return View();
 }
-[HttpPost] public IActionResult GuardarCandidato(Candidato can) {
+[HttpPost] public IActionResult GuardarCandidato(int IDCandidato, int IDPartido, string Apellido, string Nombre, DateTime FechaNacimiento, string Foto, string Postulacion) {
+    Candidato can = new Candidato(IDCandidato, IDPartido, Apellido, Nombre, FechaNacimiento, Foto, Postulacion);
     BD.AgregarCandidato(can);
     return RedirectToAction("VerDetallePartido", new {IDPartido = can.IDPartido});
 }
