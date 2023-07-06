@@ -1,16 +1,7 @@
 @{
     ViewData["Title"] = "VerDetalleCandidato";
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Privacy</title>
-</head>
-<body>
+
     <h1>Información sobre @ViewBag.VerInfoCandidato.Nombre  @ViewBag.VerInfoCandidato.Apellido</h1>
 <img src="@ViewBag.VerInfoCandidato.Foto">
 <p>Fecha de nacimiento: @ViewBag.InfoCandidato.FechaNacimiento.ToShortDateString()</p>
@@ -29,7 +20,5 @@
     public string Foto;
     public string Postulacion;
 -->
-</body>
-</html>
 
     

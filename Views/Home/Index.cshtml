@@ -4,31 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Index</title>
-</head>
-
-<body>
-    <header>
-        <div>
-            <h1 id="title"
-                style="font-family: 6'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
-                Elecciones Presidenciales 2023 Argentina</h1>
-        </div>
-    </header>
-    @foreach (Partido item in ViewBag.ListaPartidos)
-    {
-        <div>
+<header>
+    <h1 class="title">Elecciones Presidenciales 2023 Argentina</h1>
+</header>
+@foreach (Partido item in ViewBag.ListaPartidos)
+{
+    <div class="partidos">
         <a href='@Url.Action("VerDetallePartido",new {IDPartido=@item.IDPartido})'><img src="@item.Logo"></a>
         <h3>@item.Nombre</h3>
-        </div>
-    }
-
-</body>
-
-
-</html>
+    </div>
+}
