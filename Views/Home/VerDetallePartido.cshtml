@@ -3,7 +3,7 @@
 }
 
 <h1>Información sobre el partido @ViewBag.InfoPartido.Nombre</h1>
-<img src="@ViewBag.VerInfoCandidato.Logo">
+<img src="@ViewBag.InfoPartido.Logo">
 
 <p>Fecha de fundacion: @ViewBag.InfoPartido.FechaFundacion.ToShortDateString()</p>
 <p>ID: @ViewBag.InfoPartido.IDPartido</p>
@@ -19,18 +19,6 @@
     </h3>
     <img src="@item.Foto">
     <p>ID: @item.IDCandidato</p>
-    <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@ViewBag.InfoPartido.IDCandidato})'></a>
+    <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'></a>
 }
-
-
-<!--
-    public int IDPartido;
-    public string Nombre;
-    public string Logo;
-    public string SitioWeb;
-    public DateTime FechaFundacion;
-    public int CantidadDiputados;
-    public int CantidadSenadores;
--->
-
-<a href='@Url.Action("AgregarCandidato"),@ViewBag.VerInfoPartido.IDPartido'><button>Agregar un candidato</button></a>
+<a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
