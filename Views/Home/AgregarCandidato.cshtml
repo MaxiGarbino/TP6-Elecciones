@@ -9,7 +9,8 @@
 </head>
 <body>
     <form class="form-AgregarCandidato"action='@Url.Action("GuardarCandidato")' method="post">
-        <input type="hidden" name="IDPartido" value="ViewBag.IDPartido">
+        <input type="hidden" name="IDCandidato" value="0">
+        <input type="hidden" name="IDPartido" value="@ViewBag.IDPartido">
         <input type="text" name="Apellido" placeholder="Apellido">
         <input type="text" name="Nombre" placeholder="Nombre">
         <input type="date" name="FechaNacimiento">
