@@ -16,7 +16,7 @@ html {
   height: -50%;
 }
 
-h1 {
+h1, .partido h1 {
   text-align: center;
   font-family: 6'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
@@ -33,18 +33,40 @@ body{
 }
 
 
-div {
+.partido {
+  justify-content: center;
+  
+}
+.partido div {
+  width: 25%;
+  height: auto;
+}
+
+.index, .candidato {
   width: 28%;
   height: auto;
   margin: 1%;
  float: left;
 }
-div img {
+.candidato {
+  text-align: center;
+  font-weight: bolder;
+  background-color: beige;
+  border: 3px solid black;
+}
+
+.index img, .partido div img {
   width: 100%;
   height: auto;
 
 }
 
+.candidato img {
+  width: 75%;
+  height: auto;
+  justify-content: center;
+  border: 2px solid black;
+}
 
 .creditos{
   float: left;

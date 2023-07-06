@@ -3,7 +3,11 @@
 }
 
 <h1>Información sobre el partido @ViewBag.InfoPartido.Nombre</h1>
+<div class="partido">
+<div>
 <img src="/Fotos/@ViewBag.InfoPartido.Logo">
+</div>
+</div>
 
 <p>Fecha de fundacion: @ViewBag.InfoPartido.FechaFundacion.ToShortDateString()</p>
 <p>ID: @ViewBag.InfoPartido.IDPartido</p>
@@ -14,11 +18,13 @@
 <h2>Candidatos</h2>
 @foreach (Candidato item in ViewBag.ListaCandidatos)
 {
+    <div class="candidato">
     <h3>
         @item.Nombre  @item.Apellido
     </h3>
-    <img src="@item.Foto">
+    <img src="/Fotos/@item.Foto">
     <p>ID: @item.IDCandidato</p>
-    <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'></a>
+    <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'><button>Ver info candidato</button></a>
+    </div>
 }
 <a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
