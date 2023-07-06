@@ -63,10 +63,17 @@ h1, .partido h1 {
   float: left;
   text-align: center;
   background-color: white;
+  
+}
+.partidos h3 {
+  color: black;
 }
 .candidato {
+  width: 30%;
+  float: left;
   text-align: center;
   font-weight: bolder;
+  margin: 0.5%;
   background-color: beige;
   border: 3px solid black;
 }
