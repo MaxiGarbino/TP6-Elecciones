@@ -502,39 +502,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\47701750\\.nuget\\packages\\": {},
-=======
-    "C:\\Users\\47494132\\.nuget\\packages\\": {},
->>>>>>> 8267ac475104dc4c23394831f6cbab2426ced8dd
+    "C:\\Users\\47433817\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "Z:\\Programacion\\TP6-Elecciones\\TP6-Elecciones.csproj",
+      "projectUniqueName": "C:\\Users\\47433817\\TP6-Elecciones\\TP6-Elecciones.csproj",
       "projectName": "TP6-Elecciones",
-      "projectPath": "Z:\\Programacion\\TP6-Elecciones\\TP6-Elecciones.csproj",
-      "packagesPath": "C:\\Users\\47701750\\.nuget\\packages\\",
-      "outputPath": "Z:\\Programacion\\TP6-Elecciones\\obj\\",
-=======
-      "projectUniqueName": "Z:\\prog_2023\\TP6\\TP6-Elecciones\\TP6-Elecciones.csproj",
-      "projectName": "TP6-Elecciones",
-      "projectPath": "Z:\\prog_2023\\TP6\\TP6-Elecciones\\TP6-Elecciones.csproj",
-      "packagesPath": "C:\\Users\\47494132\\.nuget\\packages\\",
-      "outputPath": "Z:\\prog_2023\\TP6\\TP6-Elecciones\\obj\\",
->>>>>>> 8267ac475104dc4c23394831f6cbab2426ced8dd
+      "projectPath": "C:\\Users\\47433817\\TP6-Elecciones\\TP6-Elecciones.csproj",
+      "packagesPath": "C:\\Users\\47433817\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\47433817\\TP6-Elecciones\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\47701750\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\47494132\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 8267ac475104dc4c23394831f6cbab2426ced8dd
+        "C:\\Users\\47433817\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -592,13 +576,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché Z:\\Programacion\\TP6-Elecciones\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
