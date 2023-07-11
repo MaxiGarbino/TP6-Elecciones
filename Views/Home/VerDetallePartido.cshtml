@@ -1,12 +1,10 @@
 @{
     ViewData["Title"] = "VerDetallePartido";
 }
-
+<div class="detallePartido">
 <h1>Información sobre el partido @ViewBag.InfoPartido.Nombre</h1>
-<div class="partido">
-<div>
+<div style="background-color: rgb(101, 204, 230); border-radius: 50px;">
 <img src="/Fotos/@ViewBag.InfoPartido.Logo">
-</div>
 </div>
 
 <p>Fecha de fundacion: @ViewBag.InfoPartido.FechaFundacion.ToShortDateString()</p>
@@ -15,7 +13,9 @@
 <p>Cantidad de diputados: @ViewBag.InfoPartido.CantidadDiputados</p>
 <p>Cantidad de senadores: @ViewBag.InfoPartido.CantidadSenadores</p>
 
-<h2>Candidatos</h2>
+</div>
+
+<h2 style="text-align: center; background-color: rgb(99, 217, 233); border-radius: 20px; margin-top: 20px;">Candidatos</h2>
 @foreach (Candidato item in ViewBag.ListaCandidatos)
 {
     <div class="candidato">
@@ -29,3 +29,6 @@
     </div>
 }
 <a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
+<p>
+
+</p>
