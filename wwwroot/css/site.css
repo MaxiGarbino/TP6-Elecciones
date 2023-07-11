@@ -19,6 +19,13 @@ body{
   height: -50%;
 }
 
+.Elecciones{
+  background-color: rgb(29, 140, 214);
+  border-radius: 1px solid black;
+  font-weight:bold ;
+  margin-top: 50px;
+}
+
 h1, .partido h1 {
   text-align: center;
   font-family: 6'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
