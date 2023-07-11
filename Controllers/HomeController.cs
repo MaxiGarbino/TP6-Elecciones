@@ -40,7 +40,7 @@ public IActionResult AgregarCandidato(int IDPartido) {
 }
 public IActionResult EliminarCandidato(int IDCandidato, int IDPartido) {
     BD.EliminarCandidato(IDCandidato); 
-    return RedirectToAction("VerDetallePartido", IDPartido);
+    return RedirectToAction("VerDetallePartido", new {IDPartido = IDPartido});
 }
 /*
 IActionResult Elecciones(): Debe ir a una view en la que se cuente que es lo que se vota este año.
