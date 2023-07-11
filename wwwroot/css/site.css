@@ -68,6 +68,9 @@ h1, .partido h1 {
   align-items: center;
   width: 100%;
 }
+.detallePartido img{
+  width: 25%;
+}
 
 .index, .candidato {
   width: 28%;
@@ -87,12 +90,16 @@ h1, .partido h1 {
 .partidos h3 {
   color: black;
 }
+.candidato img{
+  width: 50%;
+  height: 20%;
+}
 .candidato {
   width: 30%;
+  height: 30%;
   float: left;
   text-align: center;
   font-weight: bolder;
-  flex-direction: row;
   margin: 0.5%;
   background-color: rgb(245, 245, 120);
   border: 3px solid black;
