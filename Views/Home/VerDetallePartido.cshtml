@@ -14,19 +14,24 @@
 </div>
 
 <h2 style="text-align: center; background-color: rgb(99, 217, 233); border-radius: 20px; margin-top: 20px;">Candidatos</h2>
-@foreach (Candidato item in ViewBag.ListaCandidatos)
-{
-    <div class="candidato">
-    <h3>
-        @item.Nombre  @item.Apellido
-    </h3>
-    <img src="@item.Foto">
-    <p>ID: @item.IDCandidato</p>
-    <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'><button>Ver info candidato</button></a>
-    <a href='@Url.Action("EliminarCandidato",new{IDCandidato=@item.IDCandidato,IDPartido=@item.IDPartido})'><button style='color:red;'>Eliminar candidato</button></a>
+<div class="container-fluid">
+    <div class="candidatos-wrapper">
+    @foreach (Candidato item in ViewBag.ListaCandidatos)
+    {
+        <section>
+        <div class="candidato">
+        <h3>
+            @item.Nombre  @item.Apellido
+        </h3>
+        <img src="@item.Foto">
+        <p>ID: @item.IDCandidato</p>
+        <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'><button>Ver info candidato</button></a>
+        <a href='@Url.Action("EliminarCandidato",new{IDCandidato=@item.IDCandidato,IDPartido=@item.IDPartido})'><button style='color:red;'>Eliminar candidato</button></a>
+        </div>
+        </section>
+    }
     </div>
-}
-<a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
-<p>
-
-</p>
+    <div>
+        <a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
+    </div>
+</div>
