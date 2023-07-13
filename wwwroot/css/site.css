@@ -166,3 +166,41 @@ h1, .partido h1 {
 .candidatos-wrapper {
   overflow: hidden; /* Limpiar el float */
 }
+
+.agregarCandidato {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.agregarCandidato img {
+width: 40%;
+height: auto;
+}
+
+article {
+  display: flex;
+  font-weight: bold;
+  font-size: x-large;
+  align-items: center;
+  margin: 10%;
+  justify-content: center;
+  text-align: center;
+  width: 20%;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #cacaca;
+  color: black;
+  border: 3px solid black;
+  transition-duration: 0.5s;
+}
+article p {
+  color: black;
+}
+article a{
+  text-decoration: none;
+}
+.volver {
+  justify-content: center;
+}
