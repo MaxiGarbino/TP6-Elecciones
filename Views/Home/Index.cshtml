@@ -5,16 +5,21 @@
     <section class="imagen">
         
     </section>
-    @foreach (Partido item in ViewBag.ListaPartidos)
-    {
-        
-        <a href='@Url.Action("VerDetallePartido",new {IDPartido=@item.IDPartido})'>
-            <div class="partidos">
-                <div>
-                    <img src="/Fotos/@item.Logo">
-                    <h3>@item.Nombre</h3>
-                </div>
-            </div>
-        </a>
-    }
+    <div class="row">
+        @foreach (Partido item in ViewBag.ListaPartidos)
+        {
+            <div class="col-12 col-md-4">
+                <a href='@Url.Action("VerDetallePartido",new {IDPartido=@item.IDPartido})'>
+                    <div class="partidos">
+                        <img src="/Fotos/@item.Logo">
+                        <h3>@item.Nombre</h3>
+                    </div>
+                </a>
+            </div>            
+        }
+    </div>
+
 </div>
+<footer>
+
+</footer>

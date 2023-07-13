@@ -18,15 +18,19 @@ body{
   width: 100%;
   height: -50%;
 }
-
+.ordenar{
+  flex-direction: column;
+}
 .Elecciones{
   background-color: rgb(41, 156, 233);
   border-radius: 1px solid black;
   font-weight:bold ;
   margin-top: 50px;
   text-align: center;
-  font-weight:bolder;
+  font-weight: 100;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 22px;
+  
 }
 
 h1, .partido h1 {
@@ -74,18 +78,19 @@ h1, .partido h1 {
 
 .index, .candidato {
   width: 28%;
-  height: auto;
+  height: 30%;
 }
 .partidos{
   border: 2px solid black;
-  border-radius: 100px;
+  border-radius: 40px;
   padding: 1%;
   margin: 1%;
-  width: 30%;
-  height: auto;
+  height: auto; 
   float: left;
   text-align: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: auto;
 }
 .partidos h3 {
   color: black;
@@ -132,8 +137,7 @@ h1, .partido h1 {
   text-align: center;
 }
 .partidos img{
-  width: 70%;
-  float:center;
+  width: 80%;
 }
 .creditos{
   float: left;

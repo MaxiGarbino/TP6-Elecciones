@@ -14,6 +14,7 @@
 </div>
 
 <h2 style="text-align: center; background-color: rgb(99, 217, 233); border-radius: 20px; margin-top: 20px;">Candidatos</h2>
+
 @foreach (Candidato item in ViewBag.ListaCandidatos)
 {
     <div class="candidato">
@@ -26,6 +27,7 @@
     <a href='@Url.Action("EliminarCandidato",new{IDCandidato=@item.IDCandidato,IDPartido=@item.IDPartido})'><button style='color:red;'>Eliminar candidato</button></a>
     </div>
 }
+
 <a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
 <p>
 
