@@ -95,13 +95,9 @@ h1, .partido h1 {
 .partidos h3 {
   color: black;
 }
-.candidato img{
-  width: 50%;
-  height: 20%;
-}
 .candidato {
-  width: 30%;
-  height: 30%;
+  width: 32.3%;
+  height: auto;
   float: left;
   text-align: center;
   font-weight: bolder;
@@ -159,4 +155,14 @@ h1, .partido h1 {
   width: 100%;
   height: 5%;
   margin-top: -480px;
+}
+
+.boton {
+  clear: both; 
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.candidatos-wrapper {
+  overflow: hidden; /* Limpiar el float */
 }
