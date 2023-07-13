@@ -25,13 +25,17 @@
         </h3>
         <img src="@item.Foto">
         <p>ID: @item.IDCandidato</p>
-        <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'><button>Ver info candidato</button></a>
-        <a href='@Url.Action("EliminarCandidato",new{IDCandidato=@item.IDCandidato,IDPartido=@item.IDPartido})'><button style='color:red;'>Eliminar candidato</button></a>
+        <a href='@Url.Action("VerDetalleCandidato",new{IDCandidato=@item.IDCandidato})'><button style="margin-bottom: 1%;">Ver info candidato</button></a>
+        <a href='@Url.Action("EliminarCandidato",new{IDCandidato=@item.IDCandidato,IDPartido=@item.IDPartido})'><button style='color:red; margin-bottom: 1%;'>Eliminar candidato</button></a>
         </div>
         </section>
     }
     </div>
-    <div>
-        <a href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'><button>Agregar un candidato</button></a>
-    </div>
+    <a  href='@Url.Action("AgregarCandidato", new {IDPartido=@ViewBag.InfoPartido.IDPartido})'>
+<div class="boton">
+<article>
+    <p>Agregar un candidato</p>
+</article>
+</div>
+</a>
 </div>

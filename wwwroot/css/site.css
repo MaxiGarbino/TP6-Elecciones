@@ -51,6 +51,7 @@ h1, .partido h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1%;
 }
 
 
@@ -130,7 +131,7 @@ h1, .partido h1 {
   text-align: center;
   font-weight: bolder;
   margin: 0.5%;
-  background-color: rgb(245, 245, 120);
+  background-color: rgb(126, 125, 151);
   border: 3px solid black;
   border-radius: 30px;
 }
@@ -212,7 +213,7 @@ article {
   font-weight: bold;
   font-size: x-large;
   align-items: center;
-  margin: 10%;
+  margin: 4%;
   justify-content: center;
   text-align: center;
   width: 20%;
@@ -221,14 +222,15 @@ article {
   background-color: #cacaca;
   color: black;
   border: 3px solid black;
-  transition-duration: 0.5s;
 }
 article p {
   color: black;
 }
-article a{
+a{
   text-decoration: none;
 }
-.volver {
+.boton {
+  display: flex;
   justify-content: center;
+  align-items: center;
 }

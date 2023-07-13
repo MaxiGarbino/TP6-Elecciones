@@ -15,9 +15,13 @@
     </div>
 </div>
 
-<a href='@Url.Action("VerDetallePartido",new {IDPartido=@ViewBag.InfoCandidato.IDPartido})'><button>Volver al
-        partido</button></a>
-
+ <a  href='@Url.Action("VerDetallePartido",new {IDPartido=@ViewBag.InfoCandidato.IDPartido})'>
+<div class="boton">
+<article>
+    <p>Volver al partido</p>
+</article>
+</div>
+</a>
 <!--
     public int IDCandidato;
     public int IDPartido;
